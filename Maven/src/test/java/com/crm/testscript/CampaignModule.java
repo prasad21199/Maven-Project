@@ -17,7 +17,7 @@ public class CampaignModule {
 //	driver.findElement(By.id("passWord")).sendKeys("123456"+Keys.ENTER);
 	WebDriver driver=new ChromeDriver();
 	driver.manage().window().maximize();
-	driver.get("https://www.google.com");
+	driver.get("https://www.instagram.com");
 	System.out.println("The title of the webpage is: "+driver.getTitle());
 	driver.quit();
 	Reporter.log("createCampaign",true);
